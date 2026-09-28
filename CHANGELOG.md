@@ -6,6 +6,9 @@ Todos los cambios notables de Pulpero, del más nuevo al más viejo. El formato 
 
 ## [Sin publicar]
 
+### Cambiado
+- La generala vale 50 (antes 60). La doble sigue en 100.
+
 ## [1.2.0] - 2026-09-23
 
 ### Agregado

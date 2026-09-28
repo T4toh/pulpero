@@ -51,9 +51,9 @@ void main() {
     expect(Casilla.poker.opciones[1].servida, isFalse);
   });
 
-  test('la generala vale 60 y solo la servida gana la partida', () {
+  test('la generala vale 50 y solo la servida gana la partida', () {
     final ops = Casilla.generala.opciones;
-    expect(ops.map((j) => j.valor), [0, 60, 60]);
+    expect(ops.map((j) => j.valor), [0, 50, 50]);
     expect(ops.last.etiqueta, 'Servida, gana');
     expect(ops.last.ganaPartida, isTrue);
     expect(ops.last.servida, isTrue);
@@ -77,7 +77,7 @@ void main() {
     expect(Casilla.escalera.jugadaPara(25)?.servida, isTrue);
     expect(Casilla.escalera.jugadaPara(20)?.servida, isFalse);
     expect(
-      Casilla.generala.jugadaPara(60)?.servida,
+      Casilla.generala.jugadaPara(50)?.servida,
       isFalse,
       reason: 'la primera coincidencia es la generala común',
     );

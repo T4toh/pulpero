@@ -4,7 +4,7 @@
 ///
 /// Once casillas, una por vuelta. Números: cantidad de dados × el número.
 /// Escalera 20, full 30, póker 40; +5 si salen servidos (en el primer tiro).
-/// Generala 60; generala servida gana la partida en el acto. Generala doble
+/// Generala 50; generala servida gana la partida en el acto. Generala doble
 /// 100 (segunda generala; servida también gana). No figura en el PDF del
 /// reglamento pero sí en la planilla impresa de Ruibal.
 enum Casilla {
@@ -44,7 +44,7 @@ enum Casilla {
       ];
     }
     if (this == generala || this == doble) {
-      final base = this == generala ? 60 : 100;
+      final base = this == generala ? 50 : 100;
       return [
         tachar,
         Jugada(base, '$base'),

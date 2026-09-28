@@ -44,7 +44,7 @@ void main() {
     g.anotar(0, Casilla.generala, tachar);
     expect(g.opciones(0, Casilla.doble), [tachar], reason: 'tachada no cuenta');
 
-    g.anotar(0, Casilla.generala, Casilla.generala.opciones[1]); // 60
+    g.anotar(0, Casilla.generala, Casilla.generala.opciones[1]); // 50
     expect(g.opciones(0, Casilla.doble).length, 3);
     g.anotar(0, Casilla.doble, doble);
     expect(g.valor(0, Casilla.doble), 100);
@@ -113,7 +113,7 @@ void main() {
     expect(g.terminada, isTrue);
     expect(g.ganadores, [1]);
     expect(g.completa, isFalse);
-    expect(g.valor(1, Casilla.generala), 60);
+    expect(g.valor(1, Casilla.generala), 50);
   });
 
   test('terminada ignora anotar y borrar', () {

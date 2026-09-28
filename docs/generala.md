@@ -52,7 +52,7 @@ cuatro. Máximo 5 dados: cinco 6 = 30.
 | **Escalera** | 1-2-3-4-5 o 2-3-4-5-6             | 20     | 25      |
 | **Full**     | Tres iguales y un par             | 30     | 35      |
 | **Póker**    | Cuatro iguales                    | 40     | 45      |
-| **Generala** | Los cinco iguales                 | 60     | Gana    |
+| **Generala** | Los cinco iguales                 | 50     | Gana    |
 | **Generala doble** | Cinco iguales, segunda vez   | 100    | Gana    |
 
 **Servido** = sale en el **primer tiro** del turno. Suma 5 puntos, salvo en las generalas.
