@@ -6,6 +6,8 @@ Todos los cambios notables de Pulpero, del más nuevo al más viejo. El formato 
 
 ## [Sin publicar]
 
+## [1.2.1] - 2026-09-28
+
 ### Cambiado
 - La generala vale 50 (antes 60). La doble sigue en 100.
 
@@ -90,7 +92,8 @@ Todos los cambios notables de Pulpero, del más nuevo al más viejo. El formato 
 - Contador de Truco: partidas a 15 (malas) o a 30 (buenas), dos equipos, puntos dibujados como
   fósforos.
 
-[Sin publicar]: https://github.com/T4toh/pulpero/compare/v1.2.0...HEAD
+[Sin publicar]: https://github.com/T4toh/pulpero/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/T4toh/pulpero/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/T4toh/pulpero/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/T4toh/pulpero/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/T4toh/pulpero/compare/v1.0.2...v1.1.0
